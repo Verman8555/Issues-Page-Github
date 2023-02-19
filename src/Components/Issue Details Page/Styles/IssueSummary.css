@@ -1,0 +1,32 @@
+#summary {
+    margin: 10px 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(224, 210, 186);
+    overflow-x: auto;
+}
+
+.markdown * {
+    word-break: break-word;
+}
+
+.markdown img {
+    max-width: 100%;
+  }
+
+.markdown pre {
+    border: 1px solid rgb(214, 214, 214);
+    padding: 0.5rem;
+    border-radius: 3px;
+    background-color: rgb(239, 255, 252);
+    overflow-x: auto;
+}
+
+.markdown code {
+    padding: 3px 5px;
+    border-radius: 2px;
+    overflow-x: auto;
+    word-break: break-word ;
+}
+
+
+

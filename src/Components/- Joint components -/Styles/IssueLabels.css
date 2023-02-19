@@ -1,0 +1,17 @@
+.issue-labels {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.issue-labels > p {
+    font-family: 'YU Gothic', sans-serif ;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 0 10px 10px;
+    padding: 0 4px;
+    border-radius: 5px;
+    color: rgb(45, 45, 45);
+}
+.issue-labels > p:last-child {
+    margin: 0 5px 10px 10px;
+}

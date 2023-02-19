@@ -1,0 +1,37 @@
+#issue-details-page {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.back {
+    margin: 20px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#issue-details-content-wrap {
+    width: 1200px;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(205, 205, 205);
+    margin: 10px auto;
+}
+
+#issue-details-content-wrap > h3 {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 0 0;
+    color: rgb(51, 87, 51);
+    font-size: 22px;
+}
+
+#issue-details-page > p, #issue-details-content-wrap > p {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+}

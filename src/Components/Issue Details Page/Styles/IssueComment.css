@@ -1,0 +1,69 @@
+#issue-comment {
+    background: rgb(222, 255, 209);
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    padding: 10px 10px 10px 0;
+    border: 1px solid rgb(203, 207, 203);
+}
+
+#issue-comment > figure {
+    padding: 10px 5px;
+    margin: 0;
+    width: 100px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#issue-comment > figure > img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+#issue-comment-wrap {
+    border: 1px solid rgb(208, 216, 210);
+    background: rgb(239, 255, 232);
+    flex-grow: 1;
+    padding: 0 5px;
+    border-radius: 8px;
+    word-break: break-word;
+    overflow-x: auto;
+}
+
+#comment-time {
+    display: flex; 
+    align-items: center;
+    padding: 10px 0 0 0;
+    font-size: 14px;
+    
+    color: rgb(85, 85, 85);
+    text-decoration: underline;
+}
+
+#comment-time > p {
+    margin: 0;
+}
+
+.markdown {
+    margin: 0;
+    padding: 0; 
+}
+
+.fake_comment::after {
+    content: "Aliquip ad amet aliquip minim do nostrud consectetur laboris cupidatat. Ullamco sint laboris in aliquip et eiusmod irure in do aliqua et sint aliqua id. Qui pariatur magna velit ut id adipisicing irure velit ad occaecat sint non ipsum. Occaecat ad velit eu culpa sunt sint cupidatat aliquip Lorem Lorem. Esse ut pariatur commodo enim ea mollit elit dolore duis irure sit.";
+    line-height: 2em;
+    color: rgb(160, 160, 160);
+}
+
+@media only screen and (max-width: 500px) {
+    #issue-comment > figure {
+        width: 70px;
+    }
+
+    #issue-comment > figure > img {
+        width: 40px;
+    }
+}

@@ -1,0 +1,14 @@
+#issue-comments {
+    padding: 5px 0 10px 0;
+}
+
+#issue-comments > h3 {
+    text-align: center;
+}
+
+.loading-comments {
+    height: 300px;
+    background-color:rgb(222, 255, 209);;
+    width: 98%;
+    margin: 10px auto;
+}

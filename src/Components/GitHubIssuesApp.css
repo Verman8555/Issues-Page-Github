@@ -1,0 +1,23 @@
+#alldata_message, #loading_issue {
+    line-height: 1.2em;
+    font-size: 24px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#alldata_message > p, #loading_issue > p{
+    margin: 40px 10px 40px 10px;
+    text-align: center;
+}
+
+.message_link {
+    outline: 0;
+    text-decoration: none;
+    color: rgb(68, 68, 241);
+    font-size: 24px;
+    font-weight: bold;
+}
+.message_link:hover {
+    color: rgb(68, 68, 241);
+}
